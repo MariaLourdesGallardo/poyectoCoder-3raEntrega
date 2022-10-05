@@ -1,0 +1,470 @@
+@keyframes desplazarse {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+header {
+  background-color: #bcd2db;
+}
+header img {
+  width: 100px;
+  margin-left: 20%;
+}
+header .navbar-toggler {
+  margin-right: 5%;
+  border: none;
+  color: #035f91;
+}
+header .nav-link {
+  color: #035f91;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  header nav {
+    justify-content: end;
+  }
+}
+@media (min-width: 455px) {
+  header nav {
+    justify-content: end;
+  }
+}
+@media (min-width: 455px) {
+  header {
+    background-color: #bcd2db;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-color: #bcd2db;
+  }
+}
+
+footer {
+  background-color: #bcd2db;
+  color: #035f91;
+}
+footer img {
+  width: 100px;
+}
+footer p {
+  text-align: center;
+}
+
+.btn {
+  width: 50%;
+  padding: 0.4rem;
+  margin: 0.3rem 0;
+  border: none;
+  background-color: #035f91;
+  font-family: "Muli", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+.btn:hover {
+  background-color: #bcd2db;
+  color: #035f91;
+  border: 2px solid #035f91;
+}
+
+.card {
+  border: solid 2px rgb(17, 69, 92);
+  background-color: rgb(226, 236, 240);
+  margin-top: 2rem;
+}
+
+.card:hover {
+  color: aliceblue;
+  background-color: rgb(17, 69, 92);
+  border: solid 2px rgb(226, 236, 240);
+}
+
+.caja2 {
+  margin: auto;
+}
+.caja2 img {
+  max-height: 497px;
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  margin-top: 10px;
+  height: 400px;
+  background-image: url(../assets/fondo-imagen\ \(1\).jpg);
+  background-size: cover;
+}
+.hero__text {
+  text-align: center;
+  color: #bcd2db;
+}
+
+.caja1 {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 6px;
+  text-shadow: 3px 3px 3px #bcd2db;
+  text-align: end;
+  color: #035f91;
+  position: relative;
+  animation-name: desplazarse;
+  animation-duration: 3s;
+}
+@media (min-width: 455px) {
+  .caja1 {
+    margin-left: -10%;
+  }
+}
+@media (min-width: 1200px) {
+  .caja1 {
+    margin-left: -10%;
+  }
+}
+
+.caja2 {
+  width: 100%;
+  height: 130px;
+  height: 800px;
+}
+
+.pie__main {
+  display: flex;
+  height: 100px;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, rgb(17, 69, 92), rgb(11, 77, 116), #c4e9f9);
+  color: #c4e9f9;
+  font-weight: 700;
+}
+
+.caja1 {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 6px;
+  text-shadow: 3px 3px 3px #bcd2db;
+  text-align: end;
+  color: #035f91;
+  position: relative;
+  animation-name: desplazarse;
+  animation-duration: 3s;
+}
+
+.caja2__locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 700px;
+}
+@media (min-width: 455px) {
+  .caja2__locations {
+    flex-direction: row;
+    height: 400px;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1200px) {
+  .caja2__locations {
+    height: 700px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.locations__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 300px;
+  text-align: center;
+}
+@media (min-width: 455px) {
+  .locations__info {
+    height: 100%;
+    justify-content: space-between;
+  }
+  .locations__info h1 {
+    margin-top: 20%;
+  }
+  .locations__info p {
+    margin-bottom: 40%;
+  }
+}
+@media (min-width: 455px) and (min-width: 1200px) {
+  .locations__info p {
+    font-size: 1.5rem;
+  }
+}
+
+.locations__img {
+  width: 90%;
+  height: 250px;
+}
+.locations__img img {
+  width: 100%;
+  object-fit: contain;
+}
+@media (min-width: 455px) {
+  .locations__img {
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .locations__img {
+    height: 500px;
+    align-self: center;
+  }
+}
+
+.caja1 {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 6px;
+  text-shadow: 3px 3px 3px #bcd2db;
+  text-align: end;
+  color: #035f91;
+  position: relative;
+  animation-name: desplazarse;
+  animation-duration: 3s;
+}
+
+.container__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-image: url(../assets/video\ Joaquin\ \(1\).gif);
+  background-size: cover;
+}
+
+.form {
+  width: 90%;
+  height: 650px;
+  background: rgba(87, 127, 145, 0.63);
+  border: 50px solid transparent;
+  outline: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form div {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+.form h2 {
+  color: #bcd2db;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 3px 3px 3px #035f91;
+}
+.form__input {
+  padding: 0.2rem;
+  margin: 0.2rem;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid rgb(3, 95, 145);
+  background-color: rgba(150, 196, 218, 0.4039215686);
+}
+.form p {
+  color: #bcd2db;
+  padding-top: 12px;
+}
+
+.form__input:focus {
+  background-color: rgb(15, 64, 90);
+  outline: none;
+  background: linear-gradient(to bottom, transparent, #333);
+}
+
+.form__input::placeholder {
+  color: white;
+}
+
+.caja1 {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 6px;
+  text-shadow: 3px 3px 3px #bcd2db;
+  text-align: end;
+  color: #035f91;
+  position: relative;
+  animation-name: desplazarse;
+  animation-duration: 3s;
+}
+
+.caja2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  height: 1400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-auto-rows: 180px;
+  gap: 20px;
+  font-size: 4rem;
+}
+.caja2 .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+@media (min-width: 455px) {
+  .caja2 {
+    height: 800px;
+  }
+  .caja2 .item1 {
+    grid-column: 1/3;
+  }
+}
+@media (min-width: 768px) {
+  .caja2 {
+    height: 600px;
+  }
+  .caja2 .item1 {
+    grid-column: 1/4;
+  }
+}
+@media (min-width: 998px) {
+  .caja2 {
+    height: 600px;
+  }
+  .caja2 .item1 {
+    grid-column: 1/5;
+  }
+  .caja2 .six {
+    grid-column: 2/3;
+  }
+}
+@media (min-width: 1200px) {
+  .caja2 {
+    height: 600px;
+  }
+  .caja2 .item1 {
+    grid-column: 1/6;
+  }
+  .caja2 .item {
+    width: 300px;
+  }
+  .caja2 .four {
+    grid-column: 4/5;
+  }
+  .caja2 .seven {
+    grid-column: 4/5;
+  }
+}
+
+.item1 {
+  display: flex;
+  height: 50px;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, rgb(17, 69, 92), rgb(11, 77, 116), #c4e9f9);
+  color: #c4e9f9;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.two {
+  background-image: url(../assets/ANTES\ 1.jpg);
+  background-size: cover;
+}
+
+.three {
+  background-image: url(../assets/DESPUES\ 1.jpg);
+  background-size: cover;
+}
+
+.four {
+  background-image: url(../assets/ANTES\ 2.jpg);
+  background-size: cover;
+}
+
+.five {
+  background-image: url(../assets/DESPUES\ 2.jpg);
+  background-size: cover;
+}
+
+.six {
+  background-image: url(../assets/ANTES\ 3.jpg);
+  background-size: cover;
+}
+
+.seven {
+  background-image: url(../assets/DESPUES\ 3.jpg);
+  background-size: cover;
+}
+
+.caja3 {
+  width: 100%;
+  height: 130px;
+  height: 1200px;
+}
+@media (min-width: 768px) {
+  .caja3 {
+    height: 1100px;
+  }
+}
+.caja3__title {
+  font-size: 1rem;
+  width: 90%;
+  height: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  height: 50px;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, rgb(17, 69, 92), rgb(11, 77, 116), #c4e9f9);
+  color: #c4e9f9;
+  font-weight: 500;
+}
+.caja3__container-card {
+  width: 90%;
+  height: 400px;
+}
+
+/*# sourceMappingURL=styles.css.map */

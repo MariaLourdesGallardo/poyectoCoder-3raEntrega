@@ -1,0 +1,10 @@
+.card{
+    border: solid 2px rgb(17, 69, 92);
+    background-color:rgb(226, 236, 240) ;
+    margin-top: 2rem;
+}
+.card:hover{
+    color:aliceblue;
+    background-color:rgb(17, 69, 92); 
+    border: solid 2px rgb(226, 236, 240) ;
+}

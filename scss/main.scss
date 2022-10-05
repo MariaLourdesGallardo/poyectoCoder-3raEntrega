@@ -1,0 +1,16 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./layout/haeader";
+@import "./layout/footer";
+@import "./layout/form";
+
+@import "./components/buttons";
+@import "./components/card";
+@import "./components/carousel";
+
+@import "./pages/index";
+@import "./pages/aboutus";
+@import "./pages/locations";
+@import "./pages/pricing";
+@import "./pages/review";

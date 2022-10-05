@@ -1,0 +1,11 @@
+.hero{
+    @include box2 ();
+    margin-top: 10px;
+    height: 400px;
+    background-image: url(../assets/fondo-imagen\ \(1\).jpg);
+    background-size: cover;
+    &__text{
+        text-align: center;
+        color: $celeste;
+    }
+    }
