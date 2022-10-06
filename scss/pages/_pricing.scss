@@ -8,7 +8,13 @@
     background-size: cover;
     
 }
+
+label{
+    color: rgba(51, 51, 51, 0)
+}
+
 .form{
+    height: 700px;
     @include form ();
     @include flex-center();
     flex-direction: column;

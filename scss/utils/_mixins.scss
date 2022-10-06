@@ -5,6 +5,20 @@
          
 }
 
+@mixin movil-m {
+    @media (min-width: 375px){
+        @content
+    }
+         
+}
+
+@mixin movil-l {
+    @media (min-width: 425px){
+        @content
+    }
+         
+}
+
 @mixin tablet-lg {
     @media (min-width: 768px){
         @content
@@ -75,7 +89,7 @@
 
 @mixin form {
     width: 90%;
-    height: 650px;
+    height: 680px;
     background: rgba(87, 127, 145, 0.63);  
     border: 50px solid transparent;
     outline: 1px solid white;
